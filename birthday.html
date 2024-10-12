@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selamat Ulang Tahun</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex flex-column align-items-center justify-content-center min-vh-100 text-center">
+        <h1 class="title mb-4">Selamat Ulang Tahun, Sayang!</h1>
+        <div class="card p-4 shadow-sm">
+            <div class="card-body">
+                <p class="card-text">
+                    Mungkin perayaan ulang tahun sering dianggap sebagai penanda waktu, sebuah ritual untuk merayakan perjalanan manusia di dunia ini. Tapi bagiku, waktu adalah konsep yang relatif. Yang lebih penting bukanlah angka yang bertambah, melainkan makna di balik setiap momen yang kita lalui bersama.
+                </p>
+                <p class="card-text">
+                    Terima kasih telah bersamaku, tidak hanya sebagai pasangan, tetapi sebagai sosok yang membantuku memahami arti keberadaan dan cinta yang sebenarnya. Semoga setiap harapan yang kamu gantungkan di masa depan lekas tercapai, dan kita terus saling menemani di setiap persimpangan waktu yang datang.
+                </p>
+            </div>
+        </div>
+        <button class="btn btn-primary btn-lg mt-4" onclick="showSurprise()">Klik untuk kejutan 🎉</button>
+        <div id="surprise" class="hidden mt-4">
+            <h2>🎂 Happy Birthday 🎂</h2>
+            <p>You're the best! 💖</p>
+        </div>
+
+        <!-- Container for flying emojis -->
+        <div class="emoji-container" id="emojiContainer"></div>
+    </div>
+
+    <!-- Bootstrap 5 JS & Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
